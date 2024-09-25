@@ -20,7 +20,6 @@
     foreach ($flores as $nombre => $src) {
       echo '<img src="'. $RUTA . $src .'">';
       echo '<p>Esto es una '. $nombre .'</p>'; 
-      # code...
     }
 
  
