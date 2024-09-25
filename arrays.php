@@ -48,7 +48,9 @@
             echo'<tr>
                     <td colspan=2>Alumno: '. $nombre .'</td>
                   </tr>';
-            
+          
+
+          //Pruebas de funciones de php
           echo '<tr><td colspan="2">VAR DUMP<br/>';
           var_dump($resultado);
           echo '</td></tr>'; 
@@ -74,7 +76,8 @@
           echo '</td></tr>'; 
 
 
-
+          //Prueba de foreach con array asociativo
+      
           $carros = array('coche'=>'BMW',
               'motor'=>'320d',
               'tipo'=>'Diesel');
