@@ -1,0 +1,12 @@
+body{
+  text-align: center;
+  background-color: lightblue;
+}
+
+h1{
+  font-family: 'Pacifico', cursive; 
+  font-size: 4rem;
+  color: crimson; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 25% 0%;
+}

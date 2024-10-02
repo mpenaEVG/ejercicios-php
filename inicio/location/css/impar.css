@@ -1,0 +1,12 @@
+body{
+  text-align: center;
+  background-color: orchid;
+}
+
+h1{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  color: burlywood;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  margin: 25% 0%;
+}
