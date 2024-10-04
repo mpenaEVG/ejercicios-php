@@ -3,6 +3,8 @@
   $numero = $_GET['numero'];
   $espar = false;
 
+  //método averigua si es par o no, almacena ese dato por referencia y devuelve el cuadrado del número
+
   function cuadradoParImpar($numero, &$espar){
 
       if ($numero % 2 == 0) {
