@@ -11,10 +11,10 @@
 
   <form action="" method="GET">
     <label>Elige un numero</label>
-    <input type=number name=numero1>
+    <input type=number name=numero1 min=1 max=100 required>
     </br>
     <label>Elige otro<label>
-    <input type=number name=numero2>
+    <input type=number name=numero2 min=1 max=100 required>
     </br>
     <label>Elige una operacion</label>
     <select id=operacion name=operacion>
