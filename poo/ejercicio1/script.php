@@ -24,6 +24,8 @@ class Ejercicio1 {
   }
 
   public function operacion(){
+    
+    $this->buscarmayor();
 
     switch ($this->operador) {
       case '+':

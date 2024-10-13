@@ -40,7 +40,6 @@
 
           $objej1 = new Ejercicio1($numero1,$numero2,$operador);
 
-          $objej1->buscarmayor();
           $resultado = $objej1->operacion();
         
           echo '<h1>'. $resultado .'</h1>'; 
