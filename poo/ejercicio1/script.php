@@ -30,18 +30,15 @@ class Ejercicio1 {
     switch ($this->operador) {
       case '+':
         return $this->numero1 + $this->numero2;
-        break;
       case '-': 
         return $this->numero1 - $this->numero2;
-        break;
       case '*': 
         return $this->numero1 * $this->numero2;
-        break;
       case '/': 
         return $this->numero1 / $this->numero2;
       
       default:
-        break;
+        return "Operador no válido";
     }
   }
 }
