@@ -36,7 +36,6 @@
 
       $obj = new Fecha($dia,$mes,$anio);
       
-      $obj->esBisiesto();
       
       $fraseFecha =  $obj->mostrarFecha();
 

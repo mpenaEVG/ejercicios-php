@@ -26,11 +26,11 @@ class Fecha{
 
 
   public function __construct($dia,$mes,$anio){
-
+      
+      
       $this->mes = $mes;
       $this->dia=$dia;
       $this->anio = $anio;
-
       //array con indice número de mes, y cada campo un array asociativo con dias y nombre de ese mes
 
       $this->fecha = array(
@@ -38,7 +38,9 @@ class Fecha{
           'dias' =>  $this->meses[$this->mes]['dias'],
           'nombre' => $this->meses[$this->mes]['nombre']
         )
-    );
+      );
+
+      $this->esBisiesto();
   }
 
 
