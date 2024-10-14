@@ -9,7 +9,7 @@
 
   <h1>Dias Meses y Años</h1>
 
-  <form action="split.php" method="GET">
+  <form action="../controlador/split.php" method="GET">
     <label>Elige la fecha</label>
     <input type=date name=fecha required>
     </br> 

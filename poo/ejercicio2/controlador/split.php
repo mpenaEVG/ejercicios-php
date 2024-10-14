@@ -40,4 +40,4 @@
       
       $fraseFecha =  $obj->mostrarFecha();
 
-      header("Location: mostrar.php?fecha=$fraseFecha");
+      header("Location: ../vista/mostrar.php?fecha=$fraseFecha");
