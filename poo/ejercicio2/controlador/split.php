@@ -1,33 +1,15 @@
- <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ejercicio1</title>
-  </head>
-  <body>
-
-  <h1>Dias Meses y Años</h1>
-
-  <form action="" method="GET">
-    <label>Elige la fecha</label>
-    <input type=date name=fecha required>
-    </br> 
-    <input type=submit name=enviar value=enviar>
-   </form>
-
-    <?php 
+<?php
       
-      require_once 'scritp2.php';
+      require 'scritp2.php';
 
       $fecha = $_GET['fecha'];
 
+    //He hecho una funcion "Casera" ya que podría usar una funcion predefinida de php para esto 
 
-      //He hecho una funcion "Casera" ya que podría usar una funcion predefinida de php para esto 
-
-      function splitCasero($fecha){
+    function splitCasero($fecha){
+      
          $longitud = strlen($fecha);
-          $aux = "";
+         $aux = "";
          $elementos = [];
 
           for($i = 0; $i<$longitud;$i++){
@@ -58,11 +40,4 @@
       
       $fraseFecha =  $obj->mostrarFecha();
 
-      echo '<h1>'. $fraseFecha .'</h1>';
-
-        
-    ?>
-
-
-</body>
-</html>
+      header("Location: mostrar.php?fecha=$fraseFecha");
