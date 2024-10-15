@@ -23,10 +23,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['excel_file'])) {
     // Mostrar los datos
     echo "<pre>";
     foreach ($data as $numero => $array) {
-      foreach ($array as $nombre) {
-          echo '<h2>Alumno numero '. $numero .' de nombre '. $nombre .'</h2>';
+      if($numero !='0'){
+        foreach ($array as $indice => $nombre) {
+          
+        
+          if(isset($nombre) && !is_numeric($nombre)){
+          
+
+            echo '<h2>Alumno numero '. $numero .' de nombre '. $nombre .'</h2>';
+          }
         }
+      }
     }
+
     echo "</pre>";
 }
   
