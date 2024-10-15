@@ -1,0 +1,16 @@
+{
+    "name": "mau/excel",
+    "description": "programa para leer excel",
+    "type": "library",
+    "require": {
+        "phpoffice/phpspreadsheet": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mpenaEVG",
+            "email": "mauriciopenadominguez.guadalupe@alumnado.fundacionloyola.net"
+        }
+    ],
+    "minimum-stability": "stable"
+}
