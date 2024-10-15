@@ -1,5 +1,5 @@
 <?php
-require 'vendor/autoload.php'; // Asegúrate de que este path sea correcto
+require 'vendor/autoload.php'; 
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
 
@@ -25,11 +25,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['excel_file'])) {
     foreach ($data as $numero => $array) {
       if($numero !='0'){
         foreach ($array as $indice => $nombre) {
-          
-        
           if(isset($nombre) && !is_numeric($nombre)){
           
-
             echo '<h2>Alumno numero '. $numero .' de nombre '. $nombre .'</h2>';
           }
         }
