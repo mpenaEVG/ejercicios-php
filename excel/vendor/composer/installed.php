@@ -3,7 +3,7 @@
         'name' => 'mau/excel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '7c391855b7bf97327bdd96791afbb829de463c8a',
+        'reference' => '7ff994f4b1b9c5730a5789aa3a3a9fc68b347cb4',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -40,7 +40,7 @@
         'mau/excel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '7c391855b7bf97327bdd96791afbb829de463c8a',
+            'reference' => '7ff994f4b1b9c5730a5789aa3a3a9fc68b347cb4',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
