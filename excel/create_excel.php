@@ -15,7 +15,6 @@
 
 
 
-  try{
 
     $pdo = new pdo("mysql:host=$host;dbname=$db;charset=utf8",$user,$password);
     
@@ -23,8 +22,6 @@
     
   
 
-  }catch(PDOException $e){
-  }
 
 // CONSULTA PARA OBTENER DATOS
 
