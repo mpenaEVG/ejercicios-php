@@ -3,7 +3,8 @@
     "description": "programa para leer excel",
     "type": "library",
     "require": {
-        "phpoffice/phpspreadsheet": "^3.3"
+        "phpoffice/phpspreadsheet": "^3.3",
+        "phpmailer/phpmailer": "^6.9"
     },
     "license": "MIT",
     "authors": [

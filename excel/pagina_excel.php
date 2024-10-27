@@ -17,5 +17,10 @@
     <form action="create_excel.php" method=POST> 
         <input type=submit name=Enviar value=Descargar>
     </form>
+
+    <h2>Enviar correo a los alumnos</h2>
+    <form action="enviar_correos.php" method=POST> 
+        <input type=submit name=Enviar value="Enviar Correo">
+    </form>
 </body>
 </html>
