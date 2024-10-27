@@ -31,4 +31,4 @@ Vas a usar una clase para realizarlo:
     Se creará un array (INDICE-> nº de mes; CONTENIDO de cada elemento-> nombre del mes y nº de días del mes). Cada elemento será a su vez un array.
     Usando un  método se comprobará que si el año es bisiesto, en este caso se modificará el valor 28 del array por 29 (dato correspondiente al mes de febrero, mes 2)."
 
-En [excel](./poo/excel) tenemos un programa que nos permite subir un excel (guardarlo y leerlo), crear un excel (descargarlo automáticamente) y por último mandar correos a los alumnos almacenados en una base de datos. 
+En [excel](./excel) tenemos un programa que nos permite subir un excel (guardarlo y leerlo), crear un excel (descargarlo automáticamente) y por último mandar correos a los alumnos almacenados en una base de datos. 
